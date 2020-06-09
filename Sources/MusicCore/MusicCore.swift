@@ -1,3 +1,1 @@
-struct MusicCore {
-    var text = "Hello, World!"
-}
+// let version = "1.0.0"
