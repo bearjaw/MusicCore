@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Artwork {
+public struct Artwork: Codable {
 
     public let width: Int
 

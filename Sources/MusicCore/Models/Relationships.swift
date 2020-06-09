@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Relationships {
+public struct Relationships: Codable {
 
     public let artists: Relationship
 

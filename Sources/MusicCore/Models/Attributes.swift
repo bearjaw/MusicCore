@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Attributes {
+public struct Attributes: Codable {
 
     public let previews: [Preview]
 
