@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct RelationshipData: Codable {
+public struct RelationshipData {
 
     public let id: String
 

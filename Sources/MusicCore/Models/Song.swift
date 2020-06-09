@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Song: Codable {
+public struct Song {
 
     public let id: String
 

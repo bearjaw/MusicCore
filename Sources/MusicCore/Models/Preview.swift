@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Preview: Codable {
+public struct Preview {
 
     public let url: URL
     

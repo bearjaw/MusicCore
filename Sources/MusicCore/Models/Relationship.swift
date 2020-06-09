@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Relationship: Codable {
+public struct Relationship {
 
     public let href: String
 
