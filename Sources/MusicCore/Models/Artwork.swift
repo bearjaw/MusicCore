@@ -13,7 +13,9 @@ public struct Artwork: Codable {
 
     public let height: Int
 
-    public let url: URL
+    /// Use this url to get an artwork and
+    /// provide a width and a height
+    public let url: String
 
     public let bgColor: String
 
