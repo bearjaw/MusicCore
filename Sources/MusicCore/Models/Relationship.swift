@@ -9,7 +9,7 @@ import Foundation
 
 public struct Relationship: Codable {
 
-    public let href: String
+    public let href: String?
 
     public let data: [RelationshipData]
 

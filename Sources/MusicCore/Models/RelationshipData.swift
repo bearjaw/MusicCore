@@ -13,5 +13,5 @@ public struct RelationshipData: Codable {
 
     public let type: String
 
-    public let href: String
+    public let href: String?
 }
