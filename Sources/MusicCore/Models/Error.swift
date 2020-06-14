@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Error: Codable {
+public struct AppleMusicError: Codable {
 
     public struct Source: Codable {
 
@@ -18,22 +18,22 @@ public struct Error: Codable {
     }
 
     /// The code for this error. For possible values, see HTTP Status Codes.
-    let code: String
+    public let code: String
 
     /// A long description of the problem; may be localized.
-    let detail: String?
+    public let detail: String?
 
     /// A unique identifier for this occurrence of the error.
-    let id: String
+    public let id: String
 
     /// A object containing references to the source of the error. For possible members, see Source object.
-    let source: Source?
+    public let source: Source?
 
 
     /// The HTTP status code for this problem.
-    let status: String
+    public let status: String
 
     /// A short description of the problem; may be localized.
-    let title: String
+    public let title: String
 
 }

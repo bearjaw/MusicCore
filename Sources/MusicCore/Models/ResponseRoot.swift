@@ -11,19 +11,19 @@ public struct ResponseRoot: Codable {
 
     public struct Results: Codable {
 
-        public let albums: [ResponseRoot]?
+        public let albums: ResponseRoot?
 
-        public let artists: [ResponseRoot]?
+        public let artists: ResponseRoot?
 
-        public let playlists: [ResponseRoot]?
+        public let playlists: ResponseRoot?
 
-        public let songs: [ResponseRoot]?
-        
+        public let songs: ResponseRoot?
+
     }
 
     public let data: [Resource]?
 
-    public let errors: [Error]?
+    public let errors: [AppleMusicError]?
 
     public let href: String?
 
