@@ -9,8 +9,13 @@ import Foundation
 
 public struct Relationship: Codable {
 
+    /// A URL subpath that fetches the resource as the primary object. This member is only present in responses.
     public let href: String?
 
-    public let data: [RelationshipData]
+    /// One or more destination objects.
+    public let data: [Resource]
+
+    /// Link to the next page of resources in the relationship. Contains the offset query parameter that specifies the next page. See Fetch Resources by Page.
+    public let next: String?
 
 }
