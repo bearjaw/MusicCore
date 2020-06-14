@@ -7,7 +7,7 @@
 
 import Foundation
 
-open class ResponseRoot: Codable {
+final class ResponseRoot: Codable {
 
     public struct Results: Codable {
 
