@@ -27,6 +27,6 @@ public struct ResponseRoot: Codable {
 
     public let href: String?
 
-    public let results: [Results]?
+    public let results: Results?
 
 }
